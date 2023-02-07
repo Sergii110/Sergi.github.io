@@ -65,6 +65,7 @@ body{
     text-align: center;
     margin-left: 52%;
     position: absolute;
+    color: aqua;
 }
 .mcontacto{
    
@@ -105,18 +106,20 @@ a:hover{
 }   
 video{
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 1060px;
+    height: 599px;
     margin-top: 0px;
+    margin-left: 5px;
 }
 .pie{
-    background-color:rgb(146, 141, 141);
+    background-color:rgb(37, 37, 37);
     width: 100%;
     height: 209px;
     position: absolute;
     margin-top: 2682px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(220, 218, 218);
 }
 .redessociales{
     width: 80px;
@@ -124,7 +127,6 @@ video{
     margin-left: 90px;
 }
 .ljordan{
-    
     width: 50px;
     height: 50px;
     top: 30px;
@@ -296,7 +298,7 @@ video{
     width: 300px;
     height: 30px;
     margin-top: 545px;
-    margin-left: 400px;
+    margin-left: 410px;
     position:absolute;
     font-size: 20px;
     font-style: inherit;
@@ -455,12 +457,15 @@ video{
     margin-left: 20px;
 }
 .preciouno{
-    border: solid black 1px;
+    
     width: 100px;
     height: 40px;
     position: absolute;
     margin-top: 610px;
-    margin-left: 20px;
+    margin-left: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 .sudaderados{
     width: 120px;
@@ -470,12 +475,13 @@ video{
     margin-left: 350px;
 }
 .preciodos{
-    border: solid black 1px;
+   
     width: 100px;
     height: 40px;
     position: absolute;
     margin-top: 610px;
-    margin-left: 20px;
+    margin-left: 500px;
+    color: rgb(0, 0, 0);
 }
 .sudaderatres{
     width: 120px;
@@ -485,20 +491,42 @@ video{
     margin-left: 730px;
 }
 .preciotres{
-    border: solid black 1px;
+   
     width: 100px;
     height: 40px;
     position: absolute;
     margin-top: 610px;
-    margin-left: 20px;
+    margin-left: 880px;
 }
 .gifnike{
-    width: 120px;
+    width: 100px;
     height: 220px;
     position: absolute;
     margin-top: 700px;
     margin-left: 300px;
 }
-
+.chiconike{
+    width: 100px;
+    height: 220px;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 20px;
+}
+.chiconikedos{
+    
+    width: 100px;
+    height: 220px;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 820px;
+}
+.future{
+    
+    width: 190px;
+    height: 120px;
+    position: absolute;
+    margin-top: 990px;
+    margin-left: 400px;
+}
 
 
