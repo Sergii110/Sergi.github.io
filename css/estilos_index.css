@@ -5,11 +5,21 @@
 }
 body{
     background-image: url(../imagenes/fondo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .capacontenido{
     width: 70%;
     height: 2850px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border: solid black 1px;
+    margin-left: 15%;
+}
+.capacontenidoz{
+    width: 70%;
+    height: 1800px;
     background-color: rgb(255, 255, 255);
     position: absolute;
     border: solid black 1px;
@@ -65,7 +75,7 @@ body{
     text-align: center;
     margin-left: 52%;
     position: absolute;
-    color: aqua;
+    color: rgb(16, 117, 117);
 }
 .mcontacto{
    
@@ -117,6 +127,16 @@ video{
     height: 209px;
     position: absolute;
     margin-top: 2682px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(220, 218, 218);
+}
+.piez{
+    background-color:rgb(37, 37, 37);
+    width: 100%;
+    height: 209px;
+    position: absolute;
+    margin-top: 1782px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(220, 218, 218);
@@ -451,9 +471,9 @@ video{
 }
 .sudaderauno{
     width: 120px;
-    height: 220px;
+    height: 20px;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 220px;
     margin-left: 20px;
 }
 .preciouno{
@@ -476,11 +496,11 @@ video{
 }
 .preciodos{
    
-    width: 100px;
+    width: 340px;
     height: 40px;
     position: absolute;
-    margin-top: 610px;
-    margin-left: 500px;
+    margin-top: 545px;
+    margin-left: 400px;
     color: rgb(0, 0, 0);
 }
 .sudaderatres{
@@ -491,12 +511,11 @@ video{
     margin-left: 730px;
 }
 .preciotres{
-   
-    width: 100px;
+    width: 290px;
     height: 40px;
     position: absolute;
-    margin-top: 610px;
-    margin-left: 880px;
+    margin-top: 546px;
+    margin-left: 780px;
 }
 .gifnike{
     width: 100px;
@@ -513,7 +532,6 @@ video{
     margin-left: 20px;
 }
 .chiconikedos{
-    
     width: 100px;
     height: 220px;
     position: absolute;
@@ -521,12 +539,241 @@ video{
     margin-left: 820px;
 }
 .future{
-    
     width: 190px;
     height: 120px;
     position: absolute;
     margin-top: 990px;
-    margin-left: 400px;
+    margin-left: 420px;
 }
+.sudaderapreciouno{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sudaderapreciodosdos{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 490px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sudaderapreciotres{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 860px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cartelsudaderas{
+    border: solid black 1px;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    margin-top: 1170px;
+    background-color: rgb(41, 20, 69);
+    text-align: center;
+    color: rgb(99, 231, 254);
+    font-size: 45px;
+}
+.logotrapstar{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+.sudaderatrapstar{
+    width: 174px;
+    height: 120px;
+    position: absolute;
+    margin-top: 1370px;
+    margin-left: 20px;
+}
+.sudaderahoodrich{
+    width: 174px;
+    height: 120px;
+    position: absolute;
+    margin-top: 1340px;
+    margin-left: 368px;
+}
+.sudaderachampion{
+    width: 174px;
+    height: 120px;
+    position: absolute;
+    margin-top: 1370px;
+    margin-left: 720px;
+}
+.sudtrapstarprecio{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 140px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.preciosudaderahoodrich{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 510px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sudaderachampionprecio{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 870px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cartelusa{
+    border: solid black 1px;
+    width: 100%;
+    height: 90px;
+    margin-top: 140px;
+    position: absolute;
+    background-color:rgb(17, 76, 91);
+    color: rgb(255, 28, 28);
+    font-size: 80px;
+    text-align: center;
+}
+.carteldosdebajosudaderas{
+    border: solid black 1px;
+    width: 100%;
+    height: 99px;
+    position: absolute;
+    margin-top: 1840px;
+    background-color: rgb(41, 20, 69);
+    text-align: center;
+    color: rgb(99, 231, 254);
+    font-size: 65px;
+}
+.conjuntotrapstar{
+    width: 50px;
+    height: 99px;
+    position: absolute;
+    margin-top: 1942px;
+}
+.pantalontrap{
+    width: 50px;
+    height: 99px;
+    position: absolute;
+    margin-top: 1942px;
+    margin-left: 320px;
+}
+.conjunto2{
+    width: 50px;
+    height: 99px;
+    position: absolute;
+    margin-top: 1942px;
+    margin-left: 620px;
+}
+.zapatillasconjubtouno{
+    width: 50px;
+    height: 99px;
+    position: absolute;
+    margin-top: 2342px;
+}
+.zapatillasconjuntodos{
+    width: 50px;
+    height: 99px;
+    position: absolute;
+    margin-top: 2342px;
+    margin-left: 570px;
+}
+.gorrauno{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    margin-top: 280px;
+}
+.gorrados{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 350px;
+}
+.gorratres{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 709px;
+}
+.carteloferta{
+   
+    width: 100%;
+    height: 90px;
+    margin-top: 630px;
+    position: absolute;
+    background-color: rgb(13, 59, 71);
+    color: rgb(255, 19, 19);
+    font-size: 80px;
+    text-align: center;
+}
+.rinionerauno{
 
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    margin-top: 780px;
+}
+.riñotres{
+
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    margin-top: 780px;
+    margin-left: 650px;
+}
+.riñocuatro{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    margin-top: 1080px;
+    margin-left: 30px;
+}
+.riñocinco{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    margin-top: 1150px;
+    margin-left: 650px;
+}
+.riñoneraadidas{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    margin-top: 1280px;
+    margin-left: 90px;
+}
+.area{
+    color: black;
+}
+.casita{
+    
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-top: 2610px;
+    margin-left: 1000px;
+}
 
